@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bulb</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+    <div class="text-center">
+        <h1>Bulb</h1>
+        <img src="images/off-removebg-preview.png" alt="OffBulb" id="off" class="img-fluid" >
+        <div class="mt-3">
+            <button class="btn btn-primary" onclick="bulbOn()" id="btnon">Bulb On</button>
+            <button class="btn btn-secondary" onclick="bulbOff()" id="btnoff" disabled >Bulb Off</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
